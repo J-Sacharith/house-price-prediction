@@ -1,0 +1,17 @@
+# Kaggle data (competition rules: download it yourself, see data/README.md)
+data/*
+!data/README.md
+*.csv
+
+# Trained artifacts produced by the notebook
+models/
+*.keras
+*.joblib
+submission*.csv
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
